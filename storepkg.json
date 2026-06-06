@@ -1,10 +1,10 @@
 {
   "pkgver": 1,
-  "type": "game",
+  "type": "app",
   "name": "CrossCraft Game Client",
   "author": "IridescentRose",
   "description": "CrossCraft is an open-source Minecraft reimplementation:\n- Faithful, Version by Version\n- Native, Powered by Zig and Aether",
-  "tag": "app",
+  "tag": "game",
   "link": "https://github.com/CrossCraft/",
   "image": "githubusercontent:StoreStation/crosscraftFiClPkg/refs/heads/main/preview.jpg",
   "version": "1.0.1",
