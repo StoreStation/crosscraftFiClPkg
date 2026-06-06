@@ -1,0 +1,33 @@
+{
+  "pkgver": 1,
+  "type": "game",
+  "name": "CrossCraft Game Client",
+  "author": "IridescentRose",
+  "description": "CrossCraft is an open-source Minecraft reimplementation:\n- Faithful, Version by Version\n- Native, Powered by Zig and Aether",
+  "tag": "app",
+  "link": "https://github.com/CrossCraft/",
+  "image": "githubusercontent:StoreStation/crosscraftFiClPkg/refs/heads/main/preview.jpg",
+  "version": "1.0.1",
+  "download": {
+    "remote": "github:CrossCraft/CrossCraft/releases/download/classic-client%2Fv1.0.1/game_psp_phat.zip",
+    "compressed": true,
+    "targets": [
+      {
+        "file": "CrossCraft-Classic-PSP/EBOOT.PBP",
+        "target": "ms0:/PSP/GAME/CrossCraftClient/EBOOT.PBP"
+      },
+      {
+        "file": "CrossCraft-Classic-PSP/app.prx",
+        "target": "ms0:/PSP/GAME/CrossCraftClient/app.prx"
+      },
+      {
+        "file": "CrossCraft-Classic-PSP/app.elf",
+        "target": "ms0:/PSP/GAME/CrossCraftClient/app.elf"
+      },
+      {
+        "file": "CrossCraft-Classic-PSP/pack.zip",
+        "target": "ms0:/PSP/GAME/CrossCraftClient/pack.zip"
+      }
+    ]
+  }
+}
